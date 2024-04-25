@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: rgb(204, 204, 192);
+  color: #fff;
+}
+
+.master-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.card-one{
+  background-color: rgb(245, 148, 2);
+  height: 45vw;
+  width: 30vw;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card-one>h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-one>p {
+  padding-bottom: 90px;
+  font-size: medium;
+    opacity: 0.6;
+}
+
+.card-one>button {
+  padding: 20px;
+  color: rgb(245, 148, 2);
+  border-radius: 30px;
+  border: none;
+}
+
+.card-two{
+  background-color: rgb(7, 85, 85);
+  height: 45vw;
+  width: 30vw;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card-two>h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-two>p {
+  padding-bottom: 90px;
+  font-size: medium;
+    opacity: 0.6;
+}
+
+.card-two>button {
+  padding: 20px;
+  color: rgb(7, 85, 85);
+  border-radius: 30px;
+  border: none;
+  
+}
+
+.card-three {
+  background-color:  rgb(2, 34, 2);
+  height: 45vw;
+  width: 30vw;
+  padding: 040px;
+  gap: 20px;
+  
+}
+
+.card-three>h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-three>p {
+  padding-bottom: 90px;
+  font-size: medium;
+    opacity: 0.6;
+}
+
+.card-three>button {
+  padding: 20px;
+  color: rgb(2, 34, 2);
+  border-radius: 30px;
+  border: none;
+  
+}
+
+/*Mobile Media queries*/
+@media (max-width:767px) {
+  .master-card {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .card-one {
+    width: 80%;
+    height: 100%;
+    font-size: medium;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+    .card-two {
+      width: 80%;
+      height: 100%;
+      font-size: medium;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+        .card-three {
+          width: 80%;
+          height: 100%;
+          font-size: medium;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+        }
+
+
+
+}
+
+/*Media queries(Tablet screen)*/
+@media(min-width:768px) and (max-width:1180px) {
+
+}
+
